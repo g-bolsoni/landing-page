@@ -1,0 +1,31 @@
+.topicsContainer{
+    margin: 30px 0;
+    background-color: var(--background-gray);
+    height: 655px;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    gap: 30px;
+    .content{
+        display: block;
+        margin: 50px auto 0;
+        width: 70%;
+        .title{
+            margin: 30px 0;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 45px;
+        }
+        ul{
+            margin: 0 0 80px 70px;
+            max-width: 80%;
+            li{
+                margin-bottom: 30px;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 30px;
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.containerColor{
+    background-color: var(--background-gray);
+    .flexContainer{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        gap: 60px;
+        max-width: 70%;
+        margin: 0 auto;
+        padding: 75px 0;
+        .testimonial{
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 35px;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.headerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+
+}
+@media (min-width:767px) and (max-width: 991px) {
+    .headerContainer{
+        justify-content: center;
+        a{
+            width: 30% !important;
+        }
+    }
+}
+@media (min-width:426px) and (max-width: 766px) {
+    .headerContainer{
+        justify-content: center;
+        a{
+            width: 40% !important;
+        }
+    }
+}
+@media (max-width: 425px) {
+    .headerContainer{
+        justify-content: center;
+        a{
+            width: 65% !important;
+        }
+    }
+}

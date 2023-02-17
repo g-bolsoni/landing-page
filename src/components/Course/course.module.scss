@@ -1,0 +1,31 @@
+.boxContainer{
+    background-color: var(--background-blue);
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 28px 0;
+    .text{
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 45px;
+        color: var(--color-white);
+        p{
+            padding: 10px 10px 50px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .boxContainer{
+        grid-template-columns: 1fr;
+        .text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .img{
+            display: none;
+        }
+    }
+}
