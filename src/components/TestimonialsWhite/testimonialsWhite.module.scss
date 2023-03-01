@@ -9,6 +9,7 @@
         margin: 0 auto;
         padding: 4.688rem 0;
         .testimonial{
+            color: var(--color-black);
             font-weight: 500;
             font-size: 1.25rem;
             line-height: 2.188rem;
@@ -19,7 +20,6 @@
 
 @media ( max-width: 768px) {
     .containerColor{
-       
         .flexContainer{
             flex-direction: column;
             align-items: center;
