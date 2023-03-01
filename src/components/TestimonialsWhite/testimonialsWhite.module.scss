@@ -4,14 +4,28 @@
         display: flex;
         align-items: flex-start;
         justify-content: center;
-        gap: 60px;
+        gap: 3.75rem;
         max-width: 70%;
         margin: 0 auto;
-        padding: 75px 0;
+        padding: 4.688rem 0;
         .testimonial{
             font-weight: 500;
-            font-size: 20px;
-            line-height: 35px;
+            font-size: 1.25rem;
+            line-height: 2.188rem;
+        }
+    }
+}
+
+
+@media ( max-width: 768px) {
+    .containerColor{
+       
+        .flexContainer{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            max-width: 100%;
+            padding: 2rem 1.5rem;
         }
     }
 }

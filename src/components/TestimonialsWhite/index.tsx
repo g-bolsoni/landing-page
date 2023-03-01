@@ -9,7 +9,7 @@ export function TestimonialsWhite() {
               is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
             </div>
             <div className={styles.video}>
-              <iframe width="450" height="240" src="https://www.youtube.com/embed/oKBRZbTmS_0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/oKBRZbTmS_0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
             </div>
           </div>
         </div>
