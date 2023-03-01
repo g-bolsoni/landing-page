@@ -91,3 +91,16 @@ a {
     margin: 0 auto;
   }
 }
+
+
+@media (max-width: 768px) {
+  html{
+    font-size: 87.5%;
+  }
+}
+
+@media (max-width: 425px) {
+  html{
+    font-size: 62.5%;
+  }
+}
