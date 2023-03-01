@@ -8,11 +8,16 @@
         max-width: 70%;
         margin: 0 auto;
         padding: 4.688rem 0;
+        .video{
+            width: 28.125rem;
+            height: 15rem; 
+        }
         .testimonial{
             color: var(--color-black);
             font-weight: 500;
             font-size: 1.25rem;
             line-height: 2.188rem;
+            flex: 1;
         }
     }
 }
