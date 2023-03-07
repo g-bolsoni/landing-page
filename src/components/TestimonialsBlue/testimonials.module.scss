@@ -1,5 +1,14 @@
 .containerColor{
     background-color: var(--background-gray);
+    .subtitle{
+        font-weight: 500;
+        font-size: 1.875rem;
+        line-height: 2.813rem;
+        display: flex;
+        align-items: flex-end;
+        padding-top: 2rem;
+        justify-content: center;
+    }
     .flexContainer{
         display: flex;
         align-items: flex-start;

@@ -22,7 +22,11 @@ export function AboutUs() {
           </div>
         </div> 
         <div className={styles.button}>
-          <button>Quero me inscrever agora</button>
+          <a href="https://pay.hotmart.com/G77948095B" target="_blank" >
+            <button>
+              Quero me inscrever agora
+            </button>
+          </a>
         </div>
       </div>
     </div>

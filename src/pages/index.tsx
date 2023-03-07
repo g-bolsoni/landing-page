@@ -21,9 +21,9 @@ export default function Home() {
       <Course />
       <Topics />
       <MainVideo />
-      <TestimonialsBlue videoUrl="https://www.youtube.com/embed/bkT5G5P9q6E"  videoTitle="Depoimentos 1"/>
+      <TestimonialsBlue videoUrl="https://www.youtube.com/embed/bkT5G5P9q6E"  videoTitle="Depoimentos 1" isTitle={true}/>
       <TestimonialsWhite videoUrl="https://www.youtube.com/embed/oKBRZbTmS_0" videoTitle="Depoimento 2"/>
-      <TestimonialsBlue videoUrl="https://www.youtube.com/embed/uggCX6lE6XU"  videoTitle="Depoimento 3"/>
+      <TestimonialsBlue videoUrl="https://www.youtube.com/embed/uggCX6lE6XU"  videoTitle="Depoimento 3" isTitle={false}/>
       <TestimonialsWhite videoUrl="https://www.youtube.com/embed/Dv56sQRKcvs" videoTitle="Depoimento 4"/> 
       <AboutUs/>
       <Footer/>
