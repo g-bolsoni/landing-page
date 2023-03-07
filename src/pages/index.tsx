@@ -6,6 +6,7 @@ import { MainVideo }          from '@/components/MainVideo';
 import { TestimonialsBlue }   from '@/components/TestimonialsBlue';
 import { TestimonialsWhite }  from '@/components/TestimonialsWhite';
 import { AboutUs }            from '@/components/About_us';
+import { Footer }             from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <TestimonialsBlue videoUrl="https://www.youtube.com/embed/uggCX6lE6XU"  videoTitle="Depoimento 3"/>
       <TestimonialsWhite videoUrl="https://www.youtube.com/embed/Dv56sQRKcvs" videoTitle="Depoimento 4"/> 
       <AboutUs/>
+      <Footer/>
     </>
   )
 }
